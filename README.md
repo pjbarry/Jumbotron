@@ -1,4 +1,4 @@
 Jumbotron
 =========
 
-Jumbotron
+Jumbotron -Rotator for stats
