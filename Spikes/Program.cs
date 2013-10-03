@@ -10,8 +10,8 @@ namespace Spikes
         static void Main(string[] args)
         {
             List<string> locations = new List<String>();
-            locations.Add("hello");
-            locations.Add("world");
+            locations.Add("http://bbc.co.uk");
+            locations.Add("http://apple.com");
 
             Rotator rotator = new Rotator(locations);
             Console.WriteLine(rotator.GetCurrentLocation());
@@ -19,7 +19,7 @@ namespace Spikes
             Console.WriteLine(rotator.GetNextLocation());
             Console.WriteLine(rotator.GetNextLocation());
             Console.WriteLine(rotator.GetNextLocation());
-            rotator.AddLocation("banana");
+            rotator.AddLocation("http://medium.com");
             Console.WriteLine("removing - " +rotator.RemoveCurrentLocation());
             Console.WriteLine(rotator.GetNextLocation());
             Console.WriteLine(rotator.GetNextLocation());
