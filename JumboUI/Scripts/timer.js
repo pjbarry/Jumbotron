@@ -10,12 +10,12 @@ function CreateTimer(TimerID, Time) {
     page = 0;
     pagecount = 6;
     tickcount = Time;
-    links[0] = "http://cdwebserver:6592/status/status";
-    links[1] = "http://cdwebserver:24680/";
-    links[2] = "http://cdwebserver:16010/Status/DevServers";
-    links[3] = "http://cdwebserver:16010/Status/LiveServers";
-    links[4] = "http://cdwebserver:16010/Status/DevDBServers";
-    links[5] = "http://cdwebserver:16010/Status/LiveDBServers";
+    links[0] = "http://vitharr:6592/status/status";
+    links[1] = "http://vitharr:24680/";
+    links[2] = "http://vitharr:16010/Status/Dev";
+    links[3] = "http://vitharr:16010/Status/Live";
+    links[4] = "http://vitharr:16010/Status/DevDB";
+    links[5] = "http://vitharr:16010/Status/LiveDB";
     UpdateTimer();
     window.setTimeout("Tick()", tickcount);
 }
